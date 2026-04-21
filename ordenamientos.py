@@ -9,6 +9,6 @@ def ordseleccion(lst):
             lst[manoizq], lst[posMen] = lst[posMen], lst[manoizq]
 
 
-list = [2,8,5,3,9,4,1]
-ordseleccion(list)
-print(list)
+lista = [2,8,5,3,9,4,1]
+ordseleccion(lista)
+print(lista)
