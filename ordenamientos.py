@@ -5,7 +5,8 @@ def ordseleccion(lst):
         for ver in range(manoizq + 1, n):
             if lst[posMen] > lst[ver]:
                 posMen = ver
-        lst[manoizq], lst[posMen] = lst[posMen], lst[manoizq]
+        if lst[posMen] < lst[manoizq]:
+            lst[manoizq], lst[posMen] = lst[posMen], lst[manoizq]
 
 
 list = [2,8,5,3,9,4,1]
